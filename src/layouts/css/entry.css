@@ -1,0 +1,159 @@
+.entry-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #FBFBFC;
+}
+
+.entry-row__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 91px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #402D5C;
+}
+
+.entry-row__title {
+  display: flex;
+  align-items: center;
+}
+
+.entry-row__body {
+  width: 100%;
+  background-color: #F3F2F6;
+  color: #402D5C;
+  max-height: 1000px;
+  transition: .2s ease;
+}
+
+.entry-row__body--collapsed {
+  height: 0px;
+
+  overflow: hidden;
+
+}
+
+i {
+  font-size: 12px !important;
+  margin-left: 8px;
+}
+
+.view {
+  display: flex;
+  align-items: center;
+
+}
+.view:hover {
+  cursor: pointer;
+}
+
+.edit-info {
+  margin-left: 12px;
+  height: 20px;
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EFEDF3;
+  color: rgba(64,45,92,.5);
+  font-size: 12px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+.btn__addnew {
+  height: 32px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-size: 13px;
+  color: white;
+  background-color: #FEB200;
+  border: none;
+  transition: .2s ease;
+}
+
+.btn__addnew:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+.btn__addnew:active, .btn__addnew:focus {
+  outline: none;
+}
+
+.btn__addnew--sm {
+  width: 150px;
+}
+
+.add-form {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(63,57,73,.43);
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.add-form__form {
+  border-radius: 6px;
+  position: relative;
+  padding: 30px;
+  max-width: 700px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.add-form__header {
+  margin-bottom: 28px;
+  font-size: 30px;
+  color: #402D5C;
+}
+
+.close-form-btn {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.close-form-btn:hover {
+  cursor: pointer;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-wrap {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #402D5C;
+}
+
+.form-input {
+  margin-bottom: 8px;
+  width: 95%;
+  height: 42px;
+  border: 2px solid #EFEDF3;
+  border-radius: 4px;
+  transition: .2s ease;
+  padding-left: 12px;
+}
+
+.form-input:active, .form-input:focus {
+  outline: none;
+  border: 2px solid #402D5C;
+}
