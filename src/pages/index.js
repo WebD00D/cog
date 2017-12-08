@@ -38,7 +38,6 @@ class IndexPage extends PureComponent {
         })
       }
 
-
     }.bind(this))
 
   }
@@ -49,7 +48,7 @@ class IndexPage extends PureComponent {
       <div>
         <PageNav />
         <div className="page-body">
-          Quickness
+          New Feature Change
         </div>
       </div>
     );
