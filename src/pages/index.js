@@ -49,7 +49,7 @@ class IndexPage extends PureComponent {
       <div>
         <PageNav />
         <div className="page-body">
-          COG
+          Quickness
         </div>
       </div>
     );
